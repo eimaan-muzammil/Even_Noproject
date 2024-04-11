@@ -30,7 +30,7 @@ public:
         if (number % 2 == 0) {
             return true;
         } else {
-            return false;
+            return false;//maybe true or false
         }
     }
 
