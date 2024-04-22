@@ -7,7 +7,7 @@ int main() {
     std::cout << "Enter a number: ";
     std::cin >> number; 
     no.data(number); 
-    bool is_even = no.calculate_even(); 
+    bool is_even = no.calculate_even();//yes/no
     no.display(is_even); 
 
     return 0;
